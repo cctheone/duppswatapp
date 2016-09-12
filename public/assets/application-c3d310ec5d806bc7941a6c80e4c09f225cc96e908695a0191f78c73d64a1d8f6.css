@@ -1,0 +1,796 @@
+/* line 6, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.homesection {
+  max-width: 1230px;
+  width: 100%;
+  margin: 5px auto;
+  height: auto;
+}
+
+/* line 8, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.mainbox {
+  float: left;
+  width: 610px;
+  padding: 2.5px 0 2.5px 2.5px;
+  height: auto;
+  background-color: #d3d3d3;
+}
+
+/* line 9, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bottombox {
+  float: left;
+  width: 610px;
+  padding: 2.5px 2.5px 2.5px 0;
+  height: auto;
+  background-color: #d3d3d3;
+}
+
+/* line 10, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.secondarybox {
+  float: left;
+  width: 610px;
+  margin: 0px;
+  height: auto;
+  background-color: #d3d3d3;
+}
+
+/* line 11, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bigbox {
+  float: left;
+  width: 400px;
+  height: 405px;
+  margin: 2.5px;
+  background-color: #fff;
+}
+
+/* line 12, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.recbox {
+  float: left;
+  width: 205px;
+  height: 405px;
+}
+
+/* line 13, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.smallbox {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 2.5px;
+  background-color: #fff;
+}
+
+/* line 14, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bigcircle {
+  position: relative;
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+
+/* line 15, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.smallcircle {
+  position: relative;
+  margin: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+
+/* line 16, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.pinkcircle {
+  background-color: #ec008c;
+}
+
+/* line 17, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.purplecircle {
+  background-color: #662d91;
+}
+
+/* line 18, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bluecircle {
+  background-color: #00aeef;
+}
+
+/* line 19, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.orangecircle {
+  background-color: #f26522;
+}
+
+/* line 20, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.yellowcircle {
+  background-color: #fff200;
+}
+
+/* line 22, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bigcircle.expand {
+  float: left;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+/* line 23, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.smallcircle.expand {
+  float: left;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+/* line 25, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.boxtitle {
+  text-transform: lowercase;
+  font-size: 16px;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+  text-align: left;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 700;
+}
+
+/* line 27, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.pinkfont {
+  color: #ec008c;
+}
+
+/* line 28, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.purplefont {
+  color: #662d91;
+}
+
+/* line 29, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bluefont {
+  color: #00aeef;
+}
+
+/* line 30, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.orangefont {
+  color: #f26522;
+}
+
+/* line 31, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.yellowfont {
+  color: #fff200;
+}
+
+/* line 33, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.boxtitle.expand {
+  color: #fff;
+}
+
+/* line 36, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage1 {
+  float: left;
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+/* line 37, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage2 {
+  float: left;
+  margin: 15px 35px 35px 15px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 38, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage3 {
+  float: left;
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 39, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage4 {
+  float: left;
+  margin: 70px 30px 30px 70px;
+  width: 200px;
+  height: 200px;
+}
+
+/* line 40, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage5 {
+  float: left;
+  margin: 15px 35px 35px 15px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 41, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage6 {
+  float: left;
+  margin: 25px 15px 25px 35px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 42, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage7 {
+  float: left;
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 43, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage8 {
+  float: left;
+  margin: 35px 15px 15px 35px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 44, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage9 {
+  float: left;
+  margin: 30px 30px 70px 70px;
+  width: 200px;
+  height: 200px;
+}
+
+/* line 45, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage10 {
+  float: left;
+  margin: 10px 25px 40px 25px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 46, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage11 {
+  float: left;
+  margin: 10px 40px 40px 10px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 47, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.randomimage12 {
+  float: left;
+  margin: 85px 40px 15px 60px;
+  width: 200px;
+  height: 200px;
+}
+
+/* line 50, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.grid-item {
+  width: 200px;
+}
+
+/* line 51, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.grid-item--width2 {
+  width: 400px;
+}
+
+/* line 54, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bscontainer-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+  font-family: "proxima-nova",sans-serif;
+}
+
+/* line 55, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bsrow {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 56, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-wrapper {
+  display: block;
+  min-height: 0px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 57, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-canvas {
+  color: #fff;
+  font-size: 20px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.6s ease 0s;
+  width: 100%;
+}
+
+/* line 58, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-canvas .centertop {
+  min-height: 600px;
+  height: auto;
+  margin: 0 auto;
+  width: 75%;
+}
+
+/* line 59, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-canvas .centertop h1 {
+  color: #e74c3c;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 60, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-canvas .centertop .image-part1 {
+  position: relative;
+  width: 100%;
+}
+
+/* line 61, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bikeimage {
+  width: 60%;
+  margin: 0 20%;
+  position: relative;
+  height: auto;
+}
+
+/* line 62, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bikeimage3 {
+  width: 50%;
+  margin: 0 25%;
+  position: relative;
+  height: auto;
+}
+
+/* line 63, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.bikeimage2 {
+  width: 70%;
+  margin: 0 15%;
+  position: relative;
+  height: auto;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+/* line 64, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partner-menu {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  height: 100%;
+  left: -60%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 65%;
+}
+
+/* line 65, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibit-menu {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  height: 100%;
+  position: absolute;
+  right: -60%;
+  text-align: center;
+  top: 0;
+  width: 65%;
+}
+
+/* line 66, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibitwrap {
+  display: block;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 999;
+}
+
+/* line 67, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibitcircle {
+  display: block;
+  height: auto;
+  left: -150px;
+  margin: 0px auto;
+  position: absolute;
+  top: 0%;
+  width: 320px;
+}
+
+/* line 68, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibit-content {
+  float: right;
+  height: 400px;
+  margin-right: 0%;
+  margin-top: 14%;
+  width: 100%;
+}
+
+/* line 69, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibit-content h2 {
+  color: #ec008c;
+  font-size: 40px;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 0 0 15%;
+}
+
+/* line 70, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partner-content h2 {
+  color: #00aeef;
+  font-size: 40px;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 0 0 0%;
+}
+
+/* line 71, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibitside {
+  color: #ec008c;
+  font-size: 30px;
+  position: relative;
+  text-align: left;
+  width: 50%;
+  margin: 25px 0 0 15%;
+}
+
+/* line 72, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partnerside {
+  color: #00aeef;
+  font-size: 30px;
+  position: relative;
+  text-align: left;
+  width: 50%;
+  margin: 25px 15% 0 0;
+}
+
+/* line 73, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.learnmore {
+  float: left;
+  color: #7f8c8d;
+}
+
+/* line 74, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#contact-exhibit {
+  clear: left;
+  margin: 10px 0 0 0;
+  border: 3px solid #f5cd0c;
+  color: #f5cd0c;
+  float: left;
+}
+
+/* line 75, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#contact-partner {
+  clear: both;
+  margin: 10px 0 0 0;
+  border: 3px solid #20a286;
+  color: #20a286;
+  float: left;
+}
+
+/* line 76, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partnerwrap {
+  display: block;
+  min-height: 600px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 999;
+}
+
+/* line 77, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partnercircle {
+  display: block;
+  height: auto;
+  margin: 0px auto;
+  position: absolute;
+  right: -150px;
+  top: 0%;
+  width: 320px;
+}
+
+/* line 78, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partner-content {
+  float: left;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 14%;
+  width: 100%;
+}
+
+/* line 79, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#exhibitcircle span {
+  font-size: 30px;
+  font-weight: 600;
+  left: -32px;
+  position: relative;
+  top: 40%;
+}
+
+/* line 80, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#partnercircle span {
+  font-size: 30px;
+  font-weight: 600;
+  left: 60px;
+  position: relative;
+  top: 40%;
+}
+
+/* line 81, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+img#arrowexhibit {
+  border: 0 none;
+  height: 4rem;
+  position: relative;
+  right: 30px;
+  top: 120px;
+  vertical-align: middle;
+}
+
+/* line 82, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+img#arrowpartner {
+  height: 4rem;
+  position: relative;
+  right: 105px;
+  top: 120px;
+  vertical-align: middle;
+  border: 0 none;
+}
+
+/* line 84, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#homecontact {
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  transition: all .6s ease 0s;
+  -webkit-transition: all .6s ease 0s;
+  -moz-transition: all .6s ease 0s;
+  -o-transition: all .6s ease 0s;
+  width: 100%;
+  z-index: 100;
+}
+
+/* line 85, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.contact-button {
+  background-color: #fff;
+  border: 3px solid #e74c3c;
+  border-radius: 20px;
+  color: #e74c3c;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+/* line 86, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.contact-button:hover {
+  background-color: #e74c3c;
+  border: 3px solid #e74c3c;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+/* line 87, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#contact-exhibit:hover {
+  background-color: #f5cd0c;
+  clear: left;
+  margin: 10px 0 0 0;
+  border: 3px solid #f5cd0c;
+  color: #fff;
+  float: left;
+}
+
+/* line 88, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#contact-partner:hover {
+  background-color: #20a286;
+  clear: both;
+  margin: 10px 0 0 0;
+  border: 3px solid #20a286;
+  color: #fff;
+  float: left;
+}
+
+/* line 90, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.learnmore:hover {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+/* line 92, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-wrapper.show-nav #demo-canvas {
+  transform: translateX(60%);
+}
+
+/* line 93, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+#demo-wrapper.show-nav2 #demo-canvas {
+  transform: translateX(-60%);
+}
+
+/* line 95, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.movedown {
+  margin-top: 15px;
+  margin-bottom: 0px !important;
+  transition: all .6s ease 0s;
+  -webkit-transition: all .6s ease 0s;
+  -moz-transition: all .6s ease 0s;
+  -o-transition: all .6s ease 0s;
+  transform: rotate(90deg);
+}
+
+/* line 96, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.clockwise180 {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transition: all 1.2s ease 0s;
+  -webkit-transition: all 1.2s ease 0s;
+  -moz-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+}
+
+/* line 97, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.counterclockwise90 {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transition: all 1.2s ease 0s;
+  -webkit-transition: all 1.2s ease 0s;
+  -moz-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+}
+
+/* line 98, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.clockwise0 {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transition: all 1.2s ease 0s;
+  -webkit-transition: all 1.2s ease 0s;
+  -moz-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+}
+
+/* line 99, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+.opacity {
+  opacity: 0;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+@media screen and (max-width: 1230px) {
+  /* line 103, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .homesection {
+    max-width: 615px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  /* line 104, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .mainbox {
+    padding: 2.5px 2.5px 0 2.5px;
+  }
+
+  /* line 105, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .bottombox {
+    padding: 0 2.5px 2.5px 2.5px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 110, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .mainbox {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 2.5px 2.5px 0 2.5px;
+  }
+
+  /* line 111, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .bottombox {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 0 2.5px 2.5px 2.5px;
+  }
+
+  /* line 112, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .secondarybox {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 113, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .bigbox {
+    float: left;
+    width: 400px;
+    height: 405px;
+    margin: 2.5px;
+  }
+
+  /* line 114, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .recbox {
+    float: left;
+    width: 205px;
+    height: 405px;
+  }
+
+  /* line 115, c:/Users/cc/desktop/duppswatapp/app/assets/stylesheets/pages.scss */
+  .smallbox {
+    float: left;
+    width: 200px;
+    height: 200px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+.logo-head2 {
+	float: left;
+	width: 20%;
+	margin: 10px 40%;
+}
+
+.navbar-brand {
+	float: left;
+	font-size: 18px;
+	height: auto !important;
+	line-height: 20px;
+	padding: 0 !important;
+}
+html body nav.navbar.navbar-default div.container-fluid div.navbar-header a.navbar-brand img.logo-head2
