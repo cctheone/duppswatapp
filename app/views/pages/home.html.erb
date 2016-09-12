@@ -1,2 +1,417 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+
+
+<div class="bscontainer-fluid">
+	<div class="bsrow">
+
+
+		<div id="demo-wrapper" class="">
+			<div id="demo-canvas">
+
+
+
+					<div class="homesection">
+						<div class="mainbox">
+							<div class="secondarybox">
+
+								<div id="box1" class="bigbox">
+									<div class="bigcircle pinkcircle">
+
+											<%= image_tag 'image1.png', :class => "", class: "randomimage1" %>
+
+									</div>
+
+									<div class="boxtitle pinkfont">happening now</div>
+
+
+
+								</div>
+
+								<div class="recbox">
+
+									<div id="box2" class="smallbox">
+										<div class="smallcircle purplecircle">
+
+											<%= image_tag 'image2.png', :class => "", class: "randomimage2" %>
+
+										</div>
+
+										<div class="boxtitle purplefont">crownkeepers</div>
+
+									</div>
+
+									<div id="box3" class="smallbox">
+										<div class="smallcircle bluecircle">
+											<%= image_tag 'image3.png', :class => "", class: "randomimage3" %>
+										</div>
+
+										<div class="boxtitle bluefont">spread mag</div>
+
+									</div>
+								</div>
+
+
+
+							</div>
+
+							<div class="secondarybox rightbox">
+
+
+								<div class="recbox">
+
+									<div id="box4" class="smallbox">
+										<div class="smallcircle orangecircle">
+											<%= image_tag 'image7.png', :class => "", class: "randomimage7" %>
+
+
+										</div>
+
+										<div class="boxtitle orangefont">rent venue</div>
+
+									</div>
+									
+									<div id="box5" class="smallbox">
+										<div class="smallcircle yellowcircle">
+											<%= image_tag 'image8.png', :class => "", class: "randomimage8" %>
+
+										</div>
+
+										<div class="boxtitle yellowfont">contact us</div>
+
+									</div>
+								</div>
+
+
+								<div id="box6" class="bigbox">
+									<div class="bigcircle purplecircle">
+										<%= image_tag 'image9.png', :class => "", class: "randomimage9" %>
+
+
+									</div>
+
+									<div class="boxtitle purplefont">meet&greet</div>
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="bottombox">
+
+							<div class="secondarybox">
+
+								<div id="box7" class="bigbox">
+									<div class="bigcircle orangecircle">
+										<%= image_tag 'image4.png', :class => "", class: "randomimage4" %>
+
+									</div>
+
+									<div class="boxtitle orangefont">now serving</div>
+
+								</div>
+
+								<div class="recbox">
+
+									<div id="box8" class="smallbox">
+										<div class="smallcircle yellowcircle">
+											<%= image_tag 'image5.png', :class => "", class: "randomimage5" %>
+
+										</div>
+
+										<div class="boxtitle yellowfont">window shopping</div>
+
+									</div>
+
+									<div id="box9" class="smallbox">
+										<div class="smallcircle pinkcircle">
+											<%= image_tag 'image6.png', :class => "", class: "randomimage6" %>
+
+										</div>
+
+										<div class="boxtitle pinkfont">social connect</div>
+
+									</div>
+								</div>
+
+
+							</div>
+							<div class="secondarybox rightbox">
+
+
+								<div class="recbox">
+
+									<div id="box10" class="smallbox">
+										<div class="smallcircle yellowcircle">
+											<%= image_tag 'image10.png', :class => "", class: "randomimage10" %>
+
+										</div>
+
+										<div class="boxtitle yellowfont">weekly question</div>
+
+									</div>
+									
+									<div id="box11" class="smallbox">
+										<div class="smallcircle pinkcircle">
+											<%= image_tag 'image11.png', :class => "", class: "randomimage11" %>
+
+										</div>
+
+										<div class="boxtitle pinkfont">blah, blah, blahg</div>
+
+									</div>
+								</div>
+
+
+								<div id="box12" class="bigbox">
+									<div class="bigcircle bluecircle">
+										<%= image_tag 'image12.png', :class => "", class: "randomimage12" %>
+
+
+									</div>
+
+									<div class="boxtitle bluefont">the studio</div>
+
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+
+				<div id="exhibit-menu">
+					<div id="exhibitwrap" class="">
+
+
+						<%= image_tag 'swat-image.png', :class => "", id: "exhibitcircle" %>
+
+						<div id="exhibit-content">
+							<h2>
+								Inspiration From Swat
+							</h2>
+							<h3 id="exhibitside">
+								"If WOMEN SUPPORT WOMEN - which is a necessity - we can make CHANGE." - Tory Burch
+							</h3>
+						</div>
+
+					</div>
+
+				</div>
+				<div id="partner-menu">
+					<div id="partnerwrap" class="">
+
+						<%= image_tag 'dupp-image.png', :class => "", id: "partnercircle" %>
+
+						<div id="partner-content">
+						<h2>
+								Something is Bugging Dupp
+							</h2>
+							<h3 id="partnerside">
+								Hella microdosing cray air plant small batch.
+							</h3>
+
+						</div>
+
+					</div>
+					
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+
+<div class="homesection">
+
+</div>
+
+
+<script>
+/// mobile adjustment
+$("#exhibitcircle").click(function(){
+	$("#demo-wrapper").toggleClass("show-nav2");
+	$("#exhibitcircle span").toggleClass("opacity");
+	$("#arrowexhibit").toggleClass("clockwise180");
+	$("#homecontact").toggleClass("nodisplay");
+});
+$("#partnercircle").click(function(){
+	$("#demo-wrapper").toggleClass("show-nav");
+	$("#partnercircle span").toggleClass("opacity");
+	$("#arrowpartner").toggleClass("clockwise180");
+	$("#homecontact").toggleClass("nodisplay");
+});
+
+//When you hover over partner circle, you add class show-nav to wrapper demo
+//select cirlce
+$("#exhibit-menu").mouseenter(function(){
+	$("#demo-wrapper").addClass("show-nav2");
+	$("#exhibitcircle span").addClass("opacity");
+	$("#arrowexhibit").addClass("clockwise180");
+	$("#homecontact").addClass("nodisplay");
+});
+$("#exhibit-menu").mouseleave(function(){
+	$("#demo-wrapper").removeClass("show-nav2");
+	$("#exhibitcircle span").removeClass("opacity");
+	$("#arrowexhibit").removeClass("clockwise180");
+	$("#homecontact").removeClass("nodisplay");
+});
+
+$("#partner-menu").mouseenter(function(){
+	$("#demo-wrapper").addClass("show-nav");
+	$("#partnercircle span").addClass("opacity");
+	$("#arrowpartner").addClass("clockwise180");
+	$("#homecontact").addClass("nodisplay");
+});
+$("#partner-menu").mouseleave(function(){
+	$("#demo-wrapper").removeClass("show-nav");
+	$("#partnercircle span").removeClass("opacity");
+	$("#arrowpartner").removeClass("clockwise180");
+	$("#homecontact").removeClass("nodisplay");
+});
+
+
+$("#box1").mouseenter(function(){
+	$("#box1 .bigcircle").addClass("expand");
+	$("#box1 .smallcircle").addClass("expand");
+	$("#box1 .boxtitle").addClass("expand");
+});
+$("#box1").mouseleave(function(){
+	$("#box1 .bigcircle").removeClass("expand");
+	$("#box1 .smallcircle").removeClass("expand");
+	$("#box1 .boxtitle").removeClass("expand");
+});
+
+$("#box2").mouseenter(function(){
+	$("#box2 .bigcircle").addClass("expand");
+	$("#box2 .smallcircle").addClass("expand");
+	$("#box2 .boxtitle").addClass("expand");
+});
+$("#box2").mouseleave(function(){
+	$("#box2 .bigcircle").removeClass("expand");
+	$("#box2 .smallcircle").removeClass("expand");
+	$("#box2 .boxtitle").removeClass("expand");
+});
+
+$("#box3").mouseenter(function(){
+	$("#box3 .bigcircle").addClass("expand");
+	$("#box3 .smallcircle").addClass("expand");
+	$("#box3 .boxtitle").addClass("expand");
+});
+$("#box3").mouseleave(function(){
+	$("#box3 .bigcircle").removeClass("expand");
+	$("#box3 .smallcircle").removeClass("expand");
+	$("#box3 .boxtitle").removeClass("expand");
+});
+
+$("#box4").mouseenter(function(){
+	$("#box4 .bigcircle").addClass("expand");
+	$("#box4 .smallcircle").addClass("expand");
+	$("#box4 .boxtitle").addClass("expand");
+});
+$("#box4").mouseleave(function(){
+	$("#box4 .bigcircle").removeClass("expand");
+	$("#box4 .smallcircle").removeClass("expand");
+	$("#box4 .boxtitle").removeClass("expand");
+});
+
+$("#box5").mouseenter(function(){
+	$("#box5 .bigcircle").addClass("expand");
+	$("#box5 .smallcircle").addClass("expand");
+	$("#box5 .boxtitle").addClass("expand");
+});
+$("#box5").mouseleave(function(){
+	$("#box5 .bigcircle").removeClass("expand");
+	$("#box5 .smallcircle").removeClass("expand");
+	$("#box5 .boxtitle").removeClass("expand");
+});
+
+$("#box6").mouseenter(function(){
+	$("#box6 .bigcircle").addClass("expand");
+	$("#box6 .smallcircle").addClass("expand");
+	$("#box6 .boxtitle").addClass("expand");
+});
+$("#box6").mouseleave(function(){
+	$("#box6 .bigcircle").removeClass("expand");
+	$("#box6 .smallcircle").removeClass("expand");
+	$("#box6 .boxtitle").removeClass("expand");
+});
+
+$("#box7").mouseenter(function(){
+	$("#box7 .bigcircle").addClass("expand");
+	$("#box7 .smallcircle").addClass("expand");
+	$("#box7 .boxtitle").addClass("expand");
+});
+$("#box7").mouseleave(function(){
+	$("#box7 .bigcircle").removeClass("expand");
+	$("#box7 .smallcircle").removeClass("expand");
+	$("#box7 .boxtitle").removeClass("expand");
+});
+
+$("#box8").mouseenter(function(){
+	$("#box8 .bigcircle").addClass("expand");
+	$("#box8 .smallcircle").addClass("expand");
+	$("#box8 .boxtitle").addClass("expand");
+});
+$("#box8").mouseleave(function(){
+	$("#box8 .bigcircle").removeClass("expand");
+	$("#box8 .smallcircle").removeClass("expand");
+	$("#box8 .boxtitle").removeClass("expand");
+});
+
+$("#box9").mouseenter(function(){
+	$("#box9 .bigcircle").addClass("expand");
+	$("#box9 .smallcircle").addClass("expand");
+	$("#box9 .boxtitle").addClass("expand");
+});
+$("#box9").mouseleave(function(){
+	$("#box9 .bigcircle").removeClass("expand");
+	$("#box9 .smallcircle").removeClass("expand");
+	$("#box9 .boxtitle").removeClass("expand");
+});
+
+$("#box10").mouseenter(function(){
+	$("#box10 .bigcircle").addClass("expand");
+	$("#box10 .smallcircle").addClass("expand");
+	$("#box10 .boxtitle").addClass("expand");
+});
+$("#box10").mouseleave(function(){
+	$("#box10 .bigcircle").removeClass("expand");
+	$("#box10 .smallcircle").removeClass("expand");
+	$("#box10 .boxtitle").removeClass("expand");
+});
+
+$("#box11").mouseenter(function(){
+	$("#box11 .bigcircle").addClass("expand");
+	$("#box11 .smallcircle").addClass("expand");
+	$("#box11 .boxtitle").addClass("expand");
+});
+$("#box11").mouseleave(function(){
+	$("#box11 .bigcircle").removeClass("expand");
+	$("#box11 .smallcircle").removeClass("expand");
+	$("#box11 .boxtitle").removeClass("expand");
+});
+
+$("#box12").mouseenter(function(){
+	$("#box12 .bigcircle").addClass("expand");
+	$("#box12 .smallcircle").addClass("expand");
+	$("#box12 .boxtitle").addClass("expand");
+});
+$("#box12").mouseleave(function(){
+	$("#box12 .bigcircle").removeClass("expand");
+	$("#box12 .smallcircle").removeClass("expand");
+	$("#box12 .boxtitle").removeClass("expand");
+});
+//add class show-nav to wrapper demo
+//how to do smooth tranisition
+//stay on section long as hover over partner section
+//move back to center section
+//take class show-nav off wrapper demo
+
+//When you haver over exhibit circle, you add class show-nav2 to wrapper demo
+
+
+
+</script>
