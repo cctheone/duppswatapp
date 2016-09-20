@@ -19,6 +19,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+.navbar {z-index: 1000;}
 
 .logo-head2 {
 	float: left;
@@ -33,4 +34,3 @@
 	line-height: 20px;
 	padding: 0 !important;
 }
-html body nav.navbar.navbar-default div.container-fluid div.navbar-header a.navbar-brand img.logo-head2
