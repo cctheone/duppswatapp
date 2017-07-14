@@ -14,6 +14,7 @@
 						<div class="mainbox">
 							<div class="secondarybox">
 
+							<%= link_to happeningnow_path do %>	
 								<div id="box1" class="bigbox">
 									<div class="bigcircle pinkcircle">
 
@@ -26,9 +27,11 @@
 
 
 								</div>
+								<% end %>
 
 								<div class="recbox">
 
+									<%= link_to "http://www.crownkeepers.org/", :target => '_blank' do %>
 									<div id="box2" class="smallbox">
 										<div class="smallcircle purplecircle">
 
@@ -39,7 +42,9 @@
 										<div class="boxtitle purplefont">crownkeepers</div>
 
 									</div>
-
+									<% end %>
+									
+									<%= link_to "http://www.thespreadmag.com", :target => '_blank' do %>
 									<div id="box3" class="smallbox">
 										<div class="smallcircle bluecircle">
 											<%= image_tag 'image3.png', :class => "", class: "randomimage3" %>
@@ -48,6 +53,7 @@
 										<div class="boxtitle bluefont">spread mag</div>
 
 									</div>
+									<% end %>
 								</div>
 
 
@@ -81,7 +87,7 @@
 									</div>
 								</div>
 
-
+								<%= link_to meetandgreet_path do %>	
 								<div id="box6" class="bigbox">
 									<div class="bigcircle purplecircle">
 										<%= image_tag 'image9.png', :class => "", class: "randomimage9" %>
@@ -92,6 +98,7 @@
 									<div class="boxtitle purplefont">meet&greet</div>
 
 								</div>
+								<% end %>
 
 							</div>
 						</div>
@@ -99,7 +106,7 @@
 						<div class="bottombox">
 
 							<div class="secondarybox">
-
+								<%= link_to nowserving_path do %>	
 								<div id="box7" class="bigbox">
 									<div class="bigcircle orangecircle">
 										<%= image_tag 'image4.png', :class => "", class: "randomimage4" %>
@@ -109,6 +116,7 @@
 									<div class="boxtitle orangefont">now serving</div>
 
 								</div>
+								<% end %>
 
 								<div class="recbox">
 
@@ -161,7 +169,7 @@
 									</div>
 								</div>
 
-
+								<%= link_to thestudio_path do %>	
 								<div id="box12" class="bigbox">
 									<div class="bigcircle bluecircle">
 										<%= image_tag 'image12.png', :class => "", class: "randomimage12" %>
@@ -172,6 +180,7 @@
 									<div class="boxtitle bluefont">the studio</div>
 
 								</div>
+								<% end %>
 								
 							</div>
 						</div>

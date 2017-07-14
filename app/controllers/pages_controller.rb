@@ -5,4 +5,12 @@ class PagesController < ApplicationController
   def thestudio
 
   end
+
+  def meetandgreet
+
+  end
+
+   def nowserving
+
+  end
 end
