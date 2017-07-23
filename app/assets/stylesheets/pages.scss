@@ -131,10 +131,34 @@ img#arrowpartner {height: 4rem; position: relative; right: 105px; top: 120px; ve
 
 
 @media screen and (max-width: 640px){
+.homesection {width: 100%;}
+.mainbox {width: 100%;}
+.secondarybox {width: 100%;}
+.bottombox {width: 100%;}
+.bigbox {width: 65%; margin: .25%;}
+.bigcircle {height: 250px; width: 250px; margin: 15px;}
+.boxtitle {bottom: 0;}
+.recbox {width: 33%;}
+.smallbox {width: 100%;}
+.smallcircle {height: 125px; margin: 5px; width: 125px;}
+
+.randomimage1  {float: left; margin: 30px; width: 150px; height: 150px;}
+.randomimage2  {float: left; margin: 10px 30px 30px 10px; width: 80px; height: 80px;}
+.randomimage3  {float: left; margin: 20px; width: 80px; height: 80px;}
+.randomimage4  {float: left;  margin: 60px 20px 20px 60px; width: 150px; height: 150px;}
+.randomimage5  {float: left; margin: 10px 30px 30px 10px; width: 80px; height: 80px;}
+.randomimage6  {float: left; margin: 20px 10px 20px 30px; width: 80px; height: 80px;}
+.randomimage7  {float: left; margin: 20px; width: 80px; height: 80px;}
+.randomimage8  {float: left; margin: 30px 10px 10px 30px; width: 80px; height: 80px;}
+.randomimage9  {float: left; margin: 20px 20px 60px 60px; width: 150px; height: 150px;}
+.randomimage10  {float: left; margin: 5px 20px 35px 20px; width: 80px; height: 80px;}
+.randomimage11 {float: left; margin: 5px 35px 35px 5px; width: 80px; height: 80px;}
+.randomimage12 {float: left; margin: 75px 30px 5px 50px; width: 150px; height: 150px;}
 
 .bigbox {float: left; width: 400px; height: 405px; margin: 2.5px;}
 .recbox {float: left; width: 205px; height: 405px;}
-.smallbox {float: left; width: 200px; height: 200px;}
+.smallbox {float: left; width: 200px; height: 200px;
+
 
 
 }
