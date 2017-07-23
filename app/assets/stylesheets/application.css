@@ -34,3 +34,8 @@
 	line-height: 20px;
 	padding: 0 !important;
 }
+
+.location1 {cursor: pointer; font-family: Myriad Pro, sans-serif; font-style: italic; font-weight: 700; position: absolute; left: 10px; top: 25px; color: #fff; font-size: 48px; line-height: 18px;}
+.location2 {cursor: pointer; font-family: Myriad Pro, sans-serif; font-style: italic; font-weight: 700; position: absolute; right: 10px; top: 25px; color: #fff; font-size: 48px; line-height: 18px; text-align: right;}
+.location1 span {font-size: 18px; text-align: left;}
+.location2 span {font-size: 18px; text-align: right;}

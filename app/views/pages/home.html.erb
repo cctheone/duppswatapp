@@ -190,7 +190,6 @@
 				<div id="exhibit-menu">
 					<div id="exhibitwrap" class="">
 
-						<div id="exhibitcircle">the STUDIO</div>
 
 						<div id="exhibit-content">
 							<h2>
@@ -207,7 +206,7 @@
 				<div id="partner-menu">
 					<div id="partnerwrap" class="">
 
-						<div id="partnercircle">the CONCEPT</div>
+			
 
 						<div id="partner-content">
 						<h2>
@@ -239,19 +238,43 @@
 
 <script>
 /// mobile adjustment
-$("#exhibitcircle").click(function(){
+$("#exhibitcirclex").click(function(){
 	$("#demo-wrapper").toggleClass("show-nav2");
 	$("#exhibitcircle span").toggleClass("opacity");
 	$("#arrowexhibit").toggleClass("clockwise180");
 	$("#homecontact").toggleClass("nodisplay");
 });
-$("#partnercircle").click(function(){
+$("#partnercirclex").click(function(){
 	$("#demo-wrapper").toggleClass("show-nav");
 	$("#partnercircle span").toggleClass("opacity");
 	$("#arrowpartner").toggleClass("clockwise180");
 	$("#homecontact").toggleClass("nodisplay");
 });
+$("#exhibitcirclex").mouseenter(function(){
+	$("#demo-wrapper").addClass("show-nav2");
+	$("#exhibitcircle span").addClass("opacity");
+	$("#arrowexhibit").addClass("clockwise180");
+	$("#homecontact").addClass("nodisplay");
+});
+$("#exhibitcirclex").mouseleave(function(){
+	$("#demo-wrapper").removeClass("show-nav2");
+	$("#exhibitcircle span").removeClass("opacity");
+	$("#arrowexhibit").removeClass("clockwise180");
+	$("#homecontact").removeClass("nodisplay");
+});
 
+$("#partnercirclex").mouseenter(function(){
+	$("#demo-wrapper").addClass("show-nav");
+	$("#partnercircle span").addClass("opacity");
+	$("#arrowpartner").addClass("clockwise180");
+	$("#homecontact").addClass("nodisplay");
+});
+$("#partnercirclex").mouseleave(function(){
+	$("#demo-wrapper").removeClass("show-nav");
+	$("#partnercircle span").removeClass("opacity");
+	$("#arrowpartner").removeClass("clockwise180");
+	$("#homecontact").removeClass("nodisplay");
+});
 //When you hover over partner circle, you add class show-nav to wrapper demo
 //select cirlce
 $("#exhibit-menu").mouseenter(function(){
