@@ -135,11 +135,11 @@ img#arrowpartner {height: 4rem; position: relative; right: 105px; top: 120px; ve
 .mainbox {width: 100%;}
 .secondarybox {width: 100%;}
 .bottombox {width: 100%;}
-.bigbox {width: 65%; margin: 1.5px 0.5%;}
+.bigbox {width: 65%; margin: 1.5px 0.5%; height: 305px;}
 .bigcircle {height: 200px; width: 200px; margin: 15px;}
-.boxtitle {font-size: 12px;}
-.recbox {width: 33%;}
-.smallbox {width: 99%; margin: 1.5px 0.5%;}
+.boxtitle {font-size: 12px; bottom: 10px;}
+.recbox {width: 33%; height: 305px;}
+.smallbox {width: 99%; margin: 1.5px 0.5%; height: 150px;}
 .smallcircle {height: 100px; margin: 5px; width: 100px;}
 #box6 {float: right;}
 #box12 {float: right;}
