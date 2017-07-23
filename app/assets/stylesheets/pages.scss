@@ -2,6 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.gradient {
+	background-color:rgba(231,76,60,1); 
+	background-image: linear-gradient(#2980b9, #16a085);
+	background-image:-webkit-gradient(linear, from(#2980b9), to(#16a085));
+	background-image:-webkit-linear-gradient(#2980b9, #16a085);
+	background-image:-moz-linear-gradient(#2980b9, #16a085);
+	background-image:-o-linear-gradient(#2980b9, #16a085);
+}
+
 // the studio
 .backgroundpic1 {position: fixed; width: 100%; height: 100%; background: url("studio-background.png"); z-index: 1; background-size: auto 100%;}
 .pagesection {position: absolute; top:100%; left: 0; width: 100%; margin: 0 0 0 0; padding: 0; z-index: 2;}
@@ -21,9 +30,9 @@
 
 html body {margin: 0; padding: 0;}
 .homesection {max-width: 1230px; width: 100%; margin: 5px auto; height: auto;}
-.mainbox {float: left; width: 610px; padding: 2.5px 0 2.5px 2.5px; height: auto; background-color:#d3d3d3;}
-.bottombox {float: left; width: 610px; padding: 2.5px 2.5px 2.5px 0; height: auto; background-color:#d3d3d3;}
-.secondarybox {float: left; width: 610px; margin: 0px; height: auto; background-color:#d3d3d3;}
+.mainbox {float: left; width: 610px; padding: 2.5px 0 2.5px 2.5px; height: auto; background-color: none;}
+.bottombox {float: left; width: 610px; padding: 2.5px 2.5px 2.5px 0; height: auto; background-color: none;}
+.secondarybox {float: left; width: 610px; margin: 0px; height: auto; background-color: none;}
 .bigbox {float: left; width: 400px; height: 405px; margin: 2.5px; background-color:#fff;}
 .recbox {float: left; width: 205px; height: 405px;}
 .smallbox {float: left; width: 200px; height: 200px; margin: 2.5px; background-color:#fff;}
@@ -67,9 +76,9 @@ html body {margin: 0; padding: 0;}
 .grid-item--width2 { width: 400px; }
 
 //home page
-.bscontainer-fluid {margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; background-color: #fff; font-family: "proxima-nova",sans-serif;}
+.bscontainer-fluid {margin-left: auto; margin-right: auto; padding: 50px 15px 100px; background-color: none; font-family: "proxima-nova",sans-serif;}
 .bsrow {margin-left: -15px; margin-right: -15px;}
-#demo-wrapper {display: block; min-height: 0px; height: auto; margin: 0 auto; overflow: hidden; width: 100%; background-color: #fff;}
+#demo-wrapper {display: block; min-height: 0px; height: auto; margin: 0 auto; overflow: hidden; width: 100%; background-color: none;}
 #demo-canvas {color: #fff; font-size: 20px; height: 100%; position: relative; text-align: center; transform: translate3d(0px, 0px, 0px); transition: all 0.6s ease 0s; width: 100%;}
 #demo-canvas .centertop {min-height: 600px; height: auto; margin: 0 auto; width: 75%;}
 #demo-canvas .centertop h1 {color: #e74c3c; font-size: 40px; font-weight: 300; margin-bottom: 20px; position: relative; z-index: 2;}
@@ -80,7 +89,7 @@ html body {margin: 0; padding: 0;}
 #partner-menu {color: #000; display: block; font-size: 14px; height: 100%; left: -60%; position: absolute; text-align: center; top: 0; width: 65%;}
 #exhibit-menu {color: #000; display: block; font-size: 14px; height: 100%; position: absolute; right: -60%; text-align: center; top: 0; width: 65%;}
 #exhibitwrap {display: block; height: 600px; margin: 0 auto; position: relative; z-index: 999;}
-#exhibitcircle {display: block; height: auto; left: -150px; margin: 0px auto; position: absolute; top: 0%; width: 320px;}
+#exhibitcircle {color: #fff; display: block; height: auto; left: -150px; margin: 0px auto; position: absolute; top: 0%; width: 320px;}
 #exhibit-content {float: right; height: 400px; margin-right: 0%; margin-top: 14%; width: 100%;}
 #exhibit-content h2 {color: #ec008c; font-size: 40px; position: relative; text-align: left; text-transform: uppercase; margin: 0 0 0 15%;}
 #partner-content h2 {color: #00aeef; font-size: 40px; position: relative; text-align: left; text-transform: uppercase; margin: 0 0 0 0%;}
@@ -90,7 +99,7 @@ html body {margin: 0; padding: 0;}
 #contact-exhibit {clear: left; margin: 10px 0 0 0; border: 3px solid #f5cd0c; color: #f5cd0c; float: left;}
 #contact-partner {clear: both; margin: 10px 0 0 0; border: 3px solid #20a286; color: #20a286; float: left;}
 #partnerwrap {display: block; min-height: 600px; height: auto; margin: 0 auto; position: relative; z-index: 999;}
-#partnercircle {display: block; height: auto; margin: 0px auto; position: absolute; right: -150px; top: 0%; width: 320px;}
+#partnercircle {color: #fff; display: block; height: auto; margin: 0px auto; position: absolute; right: -150px; top: 0%; width: 320px;}
 #partner-content {float: left; height: 400px; margin-left: 10%; margin-top: 14%; width: 100%;}
 #exhibitcircle span {font-size: 30px; font-weight: 600; left: -32px; position: relative; top: 40%;}
 #partnercircle span {font-size: 30px; font-weight: 600; left: 60px; position: relative; top: 40%;}
@@ -123,9 +132,7 @@ img#arrowpartner {height: 4rem; position: relative; right: 105px; top: 120px; ve
 
 
 @media screen and (max-width: 640px){
-.mainbox {float: left; width: 100%; height: auto; padding: 2.5px 2.5px 0 2.5px;}
-.bottombox {float: left; width: 100%; height: auto; padding: 0 2.5px 2.5px 2.5px;}
-.secondarybox {float: left; width: 100%; height: auto;}
+
 .bigbox {float: left; width: 400px; height: 405px; margin: 2.5px;}
 .recbox {float: left; width: 205px; height: 405px;}
 .smallbox {float: left; width: 200px; height: 200px;}
