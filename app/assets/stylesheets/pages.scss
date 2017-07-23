@@ -88,7 +88,7 @@ html body {margin: 0; padding: 0;}
 #partner-menu {color: #000; display: block; font-size: 14px; height: 100%; left: -60%; position: absolute; text-align: center; top: 0; width: 65%;}
 #exhibit-menu {color: #000; display: block; font-size: 14px; height: 100%; position: absolute; right: -60%; text-align: center; top: 0; width: 65%;}
 #exhibitwrap {display: block; height: 600px; margin: 0 auto; position: relative; z-index: 999;}
-#exhibitcircle {color: #fff; display: block; height: auto; left: -150px; margin: 0px auto; position: absolute; top: 0%; width: 320px;}
+#exhibitcircle {font-size: 24px; color: #fff; display: block; height: auto; left: -150px; margin: 0px auto; position: absolute; top: 50%; width: 320px;}
 #exhibit-content {float: right; height: 400px; margin-right: 0%; margin-top: 14%; width: 100%;}
 #exhibit-content h2 {color: #ec008c; font-size: 40px; position: relative; text-align: left; text-transform: uppercase; margin: 0 0 0 15%;}
 #partner-content h2 {color: #00aeef; font-size: 40px; position: relative; text-align: left; text-transform: uppercase; margin: 0 0 0 0%;}
@@ -98,7 +98,7 @@ html body {margin: 0; padding: 0;}
 #contact-exhibit {clear: left; margin: 10px 0 0 0; border: 3px solid #f5cd0c; color: #f5cd0c; float: left;}
 #contact-partner {clear: both; margin: 10px 0 0 0; border: 3px solid #20a286; color: #20a286; float: left;}
 #partnerwrap {display: block; min-height: 600px; height: auto; margin: 0 auto; position: relative; z-index: 999;}
-#partnercircle {color: #fff; display: block; height: auto; margin: 0px auto; position: absolute; right: -150px; top: 0%; width: 320px;}
+#partnercircle {font-size: 24px; color: #fff; display: block; height: auto; margin: 0px auto; position: absolute; right: -150px; top: 50%; width: 320px;}
 #partner-content {float: left; height: 400px; margin-left: 10%; margin-top: 14%; width: 100%;}
 #exhibitcircle span {font-size: 30px; font-weight: 600; left: -32px; position: relative; top: 40%;}
 #partnercircle span {font-size: 30px; font-weight: 600; left: 60px; position: relative; top: 40%;}
@@ -135,11 +135,11 @@ img#arrowpartner {height: 4rem; position: relative; right: 105px; top: 120px; ve
 .mainbox {width: 100%;}
 .secondarybox {width: 100%;}
 .bottombox {width: 100%;}
-.bigbox {width: 65%; margin: 1.5px 0.5%; height: 305px;}
+.bigbox {width: 65%; margin: 2.5px; height: 305px;}
 .bigcircle {height: 200px; width: 200px; margin: 15px;}
 .boxtitle {font-size: 12px; bottom: 10px;}
 .recbox {width: 33%; height: 305px;}
-.smallbox {width: 99%; margin: 1.5px 0.5%; height: 150px;}
+.smallbox {width: 99%; margin: 2.5px; height: 150px;}
 .smallcircle {height: 100px; margin: 5px; width: 100px;}
 #box6 {float: right;}
 #box12 {float: right;}
