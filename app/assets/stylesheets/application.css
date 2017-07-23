@@ -39,3 +39,10 @@
 .location2 {cursor: pointer; font-family: Myriad Pro, sans-serif; font-style: italic; font-weight: 700; position: absolute; right: 10px; top: 25px; color: #fff; font-size: 48px; line-height: 18px; text-align: right;}
 .location1 span {font-size: 18px; text-align: left;}
 .location2 span {font-size: 18px; text-align: right;}
+
+@media screen and (max-width: 640px){
+	.location1 {font-size: 16px; line-height: 10px;}
+	.location2 {font-size: 16px; line-height: 10px; text-align: right;}
+	.location1 span {font-size: 10px; text-align: left;}
+	.location2 span {font-size: 10px; text-align: right;}
+}
