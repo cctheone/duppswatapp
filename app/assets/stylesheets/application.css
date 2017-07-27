@@ -40,6 +40,8 @@
 .location1 span {font-size: 18px; text-align: left;}
 .location2 span {font-size: 18px; text-align: right;}
 
+.homefooter {float: left; font-family: "purista-web",sans-serif; width: 100%; text-align: center; font-size: 14px; line-height: 14px; color: #fff; }
+
 @media screen and (max-width: 640px){
 	.logo-head2 {
 		float: left;
