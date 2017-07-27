@@ -41,6 +41,12 @@
 .location2 span {font-size: 18px; text-align: right;}
 
 @media screen and (max-width: 640px){
+	.logo-head2 {
+		float: left;
+		width: 50%;
+		margin: 10px 25%;
+	}
+
 	.location1 {font-size: 16px; line-height: 10px;}
 	.location2 {font-size: 16px; line-height: 10px; text-align: right;}
 	.location1 span {font-size: 10px; text-align: left;}
