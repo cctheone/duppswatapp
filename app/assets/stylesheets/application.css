@@ -40,9 +40,14 @@
 .location1 span {font-size: 18px; text-align: left;}
 .location2 span {font-size: 18px; text-align: right;}
 
-.homefooter {float: left; padding: 50px 0 0 0; font-family: "purista-web",sans-serif; width: 100%; text-align: center; font-size: 14px; line-height: 14px; color: #fff; }
+.homefooter {float: left; padding: 50px 0 0 0; font-family: "proxima-nova",sans-serif; font-weight: 700; width: 100%; text-align: center; font-size: 14px; line-height: 14px; color: #fff; }
 .homefooter a {color: #fff; text-decoration: none;}
 .homefooter a:hover {color: #000;}
+
+.extraextra {float: left; padding: 15px 0 0 0; font-family: "proxima-nova",sans-serif; font-weight: 700; width: 100%; text-align: center; font-size: 18px; line-height: 18px; color: #ffff00;}
+.extraextra a {color: #ffff00; text-decoration: none;}
+.extraextra a:hover {color: #000;}
+
 @media screen and (max-width: 640px){
 	.logo-head2 {
 		float: left;
