@@ -1,5 +1,5 @@
 
-
+<div class="happeningnow"></div>
 
 <div class="bscontainer-fluid">
 	<div class="bsrow">
@@ -14,7 +14,7 @@
 						<div class="mainbox">
 							<div class="secondarybox">
 
-							<%= link_to happeningnow_path do %>	
+							<%= link_to happeningnow_path, remote: true , data: { no_turbolink: true } do %>
 								<div id="box1" class="bigbox">
 									<div class="bigcircle pinkcircle">
 
@@ -31,7 +31,7 @@
 
 								<div class="recbox">
 
-									<%= link_to "http://www.crownkeepers.org/", :target => '_blank' do %>
+									<%= link_to thestudio_path, remote: true , data: { no_turbolink: true } do %>
 									<div id="box2" class="smallbox">
 										<div class="smallcircle purplecircle">
 
@@ -39,18 +39,18 @@
 
 										</div>
 
-										<div class="boxtitle purplefont">crownkeepers</div>
+										<div class="boxtitle purplefont">the studio</div>
 
 									</div>
 									<% end %>
 									
-									<%= link_to "http://www.thespreadmag.com", :target => '_blank' do %>
+									<%= link_to theconcept_path, remote: true , data: { no_turbolink: true } do %>
 									<div id="box3" class="smallbox">
 										<div class="smallcircle bluecircle">
 											<%= image_tag 'image3.png', :class => "", class: "randomimage3" %>
 										</div>
 
-										<div class="boxtitle bluefont">spread mag</div>
+										<div class="boxtitle bluefont">the concept</div>
 
 									</div>
 									<% end %>
@@ -82,7 +82,7 @@
 
 										</div>
 
-										<div class="boxtitle yellowfont">contact us</div>
+										<div class="boxtitle yellowfont">now serving</div>
 
 									</div>
 								</div>
@@ -106,20 +106,21 @@
 						<div class="bottombox">
 
 							<div class="secondarybox">
-								<%= link_to nowserving_path do %>	
+								<%= link_to "http://www.thespreadmag.com", :target => '_blank' do %>	
 								<div id="box7" class="bigbox">
 									<div class="bigcircle orangecircle">
 										<%= image_tag 'image4.png', :class => "", class: "randomimage4" %>
 
 									</div>
 
-									<div class="boxtitle orangefont">now serving</div>
+									<div class="boxtitle orangefont">spread mag</div>
 
 								</div>
 								<% end %>
 
 								<div class="recbox">
-
+									<%= link_to "http://duppandswat.bigcartel.com/", :target => '_blank' do %>
+									
 									<div id="box8" class="smallbox">
 										<div class="smallcircle yellowcircle">
 											<%= image_tag 'image5.png', :class => "", class: "randomimage5" %>
@@ -129,16 +130,18 @@
 										<div class="boxtitle yellowfont">window shopping</div>
 
 									</div>
-
+									<% end %>
+									<%= link_to "http://www.crownkeepers.org/", :target => '_blank' do %>
 									<div id="box9" class="smallbox">
 										<div class="smallcircle pinkcircle">
 											<%= image_tag 'image6.png', :class => "", class: "randomimage6" %>
 
 										</div>
 
-										<div class="boxtitle pinkfont">social connect</div>
+										<div class="boxtitle pinkfont">crownkeepers</div>
 
 									</div>
+									<% end %>
 								</div>
 
 
@@ -154,22 +157,23 @@
 
 										</div>
 
-										<div class="boxtitle yellowfont">weekly question</div>
+										<div class="boxtitle yellowfont">contact us</div>
 
 									</div>
-									
+									<%= link_to "http://www.twitter.com/duppandswat/", :target => '_blank' do %>
 									<div id="box11" class="smallbox">
 										<div class="smallcircle pinkcircle">
 											<%= image_tag 'image11.png', :class => "", class: "randomimage11" %>
 
 										</div>
 
-										<div class="boxtitle pinkfont">blah, blah, blahg</div>
+										<div class="boxtitle pinkfont">twitter</div>
 
 									</div>
+									<% end %>
 								</div>
 
-								<%= link_to thestudio_path do %>	
+								<%= link_to "http://www.instagram.com/duppandswat/", :target => '_blank' do %>	
 								<div id="box12" class="bigbox">
 									<div class="bigcircle bluecircle">
 										<%= image_tag 'image12.png', :class => "", class: "randomimage12" %>
@@ -177,7 +181,7 @@
 
 									</div>
 
-									<div class="boxtitle bluefont">the studio</div>
+									<div class="boxtitle bluefont">instagram</div>
 
 								</div>
 								<% end %>
@@ -186,7 +190,7 @@
 						</div>
 					</div>
 
-
+			<% if false %>
 				<div id="exhibit-menu">
 					<div id="exhibitwrap" class="">
 
@@ -194,11 +198,16 @@
 
 						<div id="exhibit-content">
 							<h2>
-								Inspiration From Swat
+								the STUDIO
 							</h2>
 							<h3 id="exhibitside">
 								"If WOMEN SUPPORT WOMEN - which is a necessity - we can make CHANGE." - Tory Burch
 							</h3>
+
+
+
+
+
 						</div>
 
 					</div>
@@ -211,18 +220,39 @@
 			
 
 						<div id="partner-content">
-						<h2>
-								Something is Bugging Dupp
-							</h2>
-							<h3 id="partnerside">
-								Hella microdosing cray air plant small batch.
-							</h3>
+							<div class="info-section">
+								dupp&swat is located in NoDa, Charlotte’s arts district, and houses retail/showroom selections, a full-service salon and art gallery. Additionally, this colorful studio is used for a host of happenings as it morphs into event space, as well.
+							</div>
 
+							<div class="studio-info">
+								<div class="subheader-section2">
+									Store Hours:
+								</div><div class="clear"></div>
+								<ul>
+									<li>Mon: Closed</li>
+									<li>Tue: 11am - 7pm</li>
+									<li>Wed: 11am - 7pm</li>
+									<li>Thu: 11am - 7pm</li>
+									<li>Fri: 11am - 7pm</li>
+									<li>Sat: 11am - 7pm</li>
+									<li>Sun: 1pm - 6pm</li>
+									<li></br>(Open Longer, If Having An Event)</li>
+								</ul>
+								<div class="subheader-section2">
+									Location:
+									</div><div class="clear"></div>
+								<div class="location-address">2424 N Davidson St, Suite 112B</br>Charlotte, North Carolina 28205</br></br>Contact to rent venue:</br> info@duppandswat.com</br>980.224.2128</div>
+							</div>
+
+							<div class="studio-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3258.6072794762226!2d-80.812057!3d35.241144999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a075a7b30c77%3A0x212f809f0dec4aee!2s2424+N+Davidson+St+%23112b!5e0!3m2!1sen!2sus!4v1399349280517" width="100%" height="400px" frameborder="0" style="border:0"></iframe>
+							</div>
 						</div>
 
 					</div>
 					
 				</div>
+				<% end %>
 
 
 			</div>
