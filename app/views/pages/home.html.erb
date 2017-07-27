@@ -64,30 +64,34 @@
 
 
 								<div class="recbox">
-
+									<%= link_to "http://duppandswat.bigcartel.com/", :target => '_blank' do %>
 									<div id="box4" class="smallbox">
 										<div class="smallcircle orangecircle">
-											<%= image_tag 'image7.png', :class => "", class: "randomimage7" %>
+											<%= image_tag 'image5.png', :class => "", class: "randomimage5" %>
 
 
 										</div>
 
-										<div class="boxtitle orangefont">rent venue</div>
+										<div class="boxtitle orangefont">window shopping</div>
 
 									</div>
+									<% end %>
 									
+									<%= link_to "http://www.crownkeepers.org/", :target => '_blank' do %>
 									<div id="box5" class="smallbox">
 										<div class="smallcircle yellowcircle">
 											<%= image_tag 'image8.png', :class => "", class: "randomimage8" %>
 
 										</div>
 
-										<div class="boxtitle yellowfont">now serving</div>
+										<div class="boxtitle yellowfont">crownkeepers</div>
 
 									</div>
+									<% end %>
 								</div>
 
-								<%= link_to meetandgreet_path do %>	
+									
+								<%= link_to "http://www.thespreadmag.com", :target => '_blank' do %>
 								<div id="box6" class="bigbox">
 									<div class="bigcircle purplecircle">
 										<%= image_tag 'image9.png', :class => "", class: "randomimage9" %>
@@ -95,7 +99,7 @@
 
 									</div>
 
-									<div class="boxtitle purplefont">meet&greet</div>
+									<div class="boxtitle purplefont">spread mag</div>
 
 								</div>
 								<% end %>
@@ -106,14 +110,14 @@
 						<div class="bottombox">
 
 							<div class="secondarybox">
-								<%= link_to "http://www.thespreadmag.com", :target => '_blank' do %>	
+								<%= link_to meetandgreet_path, remote: true , data: { no_turbolink: true } do %>	
 								<div id="box7" class="bigbox">
 									<div class="bigcircle orangecircle">
 										<%= image_tag 'image4.png', :class => "", class: "randomimage4" %>
 
 									</div>
 
-									<div class="boxtitle orangefont">spread mag</div>
+									<div class="boxtitle orangefont">meet&greet</div>
 
 								</div>
 								<% end %>
@@ -123,22 +127,22 @@
 									
 									<div id="box8" class="smallbox">
 										<div class="smallcircle yellowcircle">
-											<%= image_tag 'image5.png', :class => "", class: "randomimage5" %>
+											<%= image_tag 'image7.png', :class => "", class: "randomimage7" %>
 
 										</div>
 
-										<div class="boxtitle yellowfont">window shopping</div>
+										<div class="boxtitle yellowfont">rent venue</div>
 
 									</div>
 									<% end %>
-									<%= link_to "http://www.crownkeepers.org/", :target => '_blank' do %>
+									<%= link_to nowserving_path, remote: true , data: { no_turbolink: true } do %>
 									<div id="box9" class="smallbox">
 										<div class="smallcircle pinkcircle">
 											<%= image_tag 'image6.png', :class => "", class: "randomimage6" %>
 
 										</div>
 
-										<div class="boxtitle pinkfont">crownkeepers</div>
+										<div class="boxtitle pinkfont">now serving</div>
 
 									</div>
 									<% end %>

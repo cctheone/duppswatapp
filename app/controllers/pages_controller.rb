@@ -16,11 +16,17 @@ class PagesController < ApplicationController
   end
 
   def meetandgreet
-
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
    def nowserving
-
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def happeningnow
