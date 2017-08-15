@@ -7,7 +7,9 @@ Rails.application.routes.draw do
   get '/theconcept', to: 'pages#theconcept'
   get '/happeningnow', to: 'pages#happeningnow'
   get '/meetandgreet', to: 'pages#meetandgreet'
-  get '/nowserving', to: 'pages#nowserving'
+  get '/communityboard', to: 'pages#communityboard'
   get '/home', to: 'pages#home'
-
+  get '/rentvenue', to: 'pages#rentvenue'
+  get '/windowshopping', to: 'pages#windowshopping'
+  get '/socialize', to: 'pages#socialize'
 end

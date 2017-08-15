@@ -22,7 +22,7 @@ class PagesController < ApplicationController
     end
   end
 
-   def nowserving
+   def communityboard
     respond_to do |format|
       format.html
       format.js
@@ -30,12 +30,28 @@ class PagesController < ApplicationController
   end
 
   def happeningnow
-
-  	
 	  respond_to do |format|
 	    format.html
 	    format.js
 	  end
 	end
 
+  def rentvenue
+    respond_to do |format|
+      format.html
+      format.js
+    end
+  end
+  def windowshopping
+    respond_to do |format|
+      format.html
+      format.js
+    end
+  end
+  def socialize
+    respond_to do |format|
+      format.html
+      format.js
+    end
+  end
 end
