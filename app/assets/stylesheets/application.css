@@ -33,6 +33,7 @@
 	height: auto !important;
 	line-height: 20px;
 	padding: 0 !important;
+	width: 100%;
 }
 
 .location1 {cursor: pointer; font-family: Myriad Pro, sans-serif; font-style: italic; font-weight: 700; position: absolute; left: 10px; top: 25px; color: #fff; font-size: 48px; line-height: 18px;}
