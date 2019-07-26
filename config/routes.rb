@@ -14,5 +14,14 @@ Rails.application.routes.draw do
   # get '/windowshopping', to: 'pages#windowshopping'
   # get '/socialize', to: 'pages#socialize'
 
+  get '/thestudio', to: 'pages#email'
+  get '/theconcept', to: 'pages#email'
+  get '/happeningnow', to: 'pages#email'
+  get '/meetandgreet', to: 'pages#email'
+  get '/communityboard', to: 'pages#email'
+  get '/home', to: 'pages#email'
+  get '/rentvenue', to: 'pages#email'
+  get '/windowshopping', to: 'pages#email'
+  get '/socialize', to: 'pages#email'
   root 'pages#email'
 end
